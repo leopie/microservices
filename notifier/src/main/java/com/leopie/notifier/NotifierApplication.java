@@ -1,4 +1,4 @@
-package com.leopie.fraud;
+package com.leopie.notifier;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-public class FraudCheckApplication {
+public class NotifierApplication {
     public static void main(String[] args) {
-        SpringApplication.run(FraudCheckApplication.class, args);
+        SpringApplication.run(NotifierApplication.class, args);
     }
 }
